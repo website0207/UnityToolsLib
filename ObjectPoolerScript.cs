@@ -6,6 +6,8 @@ public class ObjectPoolerScript
 {
     //public static ObjectPoolerScript current;
     public GameObject pooledObject;
+	//确定在对象池集合中的索引
+	private int index;
     public int pooledAmount = 20;
     //用来判定该池是否能拓展
     public bool willGrow = true;
